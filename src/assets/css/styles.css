@@ -1,0 +1,176 @@
+
+/* Mobile First */
+
+  /* Set up the main container styles */
+  .container {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #bfb6b6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    /* font styles */
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      }
+
+      
+/* Set up the container as a flex container with column direction */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  }
+  /* Set up the about-header section as a flex container with row direction, aligning items in the center, and adding margin bottom */
+  .about-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  }
+  /* Set the height and margin of the header-image */
+  .header-image {
+  height: 10rem;
+  margin-right: 1rem;
+  }
+  /* Set the width of the image to 100%, and align it in the center using flexbox */
+  .image{
+     width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+/* Set up the project container styles,*/
+  .containerproject {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    color:  #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    /* Set up the About container styles,*/
+  .containerabout {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #d4ccb6;
+    color:  #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    /* Set up the home container styles,*/
+  .containerHome {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #dfd5bc;
+    color: #0ea3ab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+/* Set up the contact container style */
+  .containercontact {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #bfb6b6;
+    color: #333;
+    }
+
+  /* Set up the nnn class styles */
+  .nnn {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #767171;
+  color: #333;
+  font-size: 1em;
+  }
+  /* Set up the Logo class styles */
+  .Logo {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+/* Set up the headerimage class styles */
+  .headerimage {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  /* Set up the h2 styles */
+  h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  /* Set up the p styles */
+  p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  }
+  /* Set up the nav-list styles */
+  .nav-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  
+  }
+
+  /* Set up the nav-list li styles */
+  .nav-list li {
+  margin: 10px 0;
+  text-align: center;
+  }
+  
+  .nav-list li:last-child {
+  margin-right: 0;
+  }
+  
+  /* Desktop */
+  
+  @media screen and (min-width: 768px) {
+  
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  /* Set up the nnn styles */
+
+  /* Set up the headerimage styles */
+  .headerimage {
+  width: 200px;
+  align-items: center;
+  }
+  /* Set up the nav-list styles */
+  .nav-list {
+  flex-direction: row;
+  justify-content:space-evenly;
+  }
+  nav-list
+  .nav-list li {
+  margin: 0 20px;
+  }
+  .Logo {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  }
+
+
+
